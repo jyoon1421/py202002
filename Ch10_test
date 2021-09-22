@@ -1,0 +1,27 @@
+import csv
+f = open("파이썬프로그래밍02반_CSV.csv","r")
+reader = csv.reader(
+f,
+delimiter=
+)
+
+name = []
+for i in Student: name.append(i[0])
+number = []
+for i in Student: number.append(i[1])
+department = []
+for i in Student: department.append(i[2])
+math = []
+for i in Student: math.append(i[3])
+english = []
+for i in Student: english.append(i[4])
+korean = []
+for i in Student: korean.append(i[5])
+
+def grade():
+    math.sort(reverse = True)
+    english.sort(reverse = True)
+    korean.sort(reverse = True)
+    countstudent*0.3
+    if math >= :
+        grade = 'A'
